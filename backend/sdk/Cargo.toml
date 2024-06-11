@@ -1,0 +1,8 @@
+[package]
+name = "sdk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "2.1.5", features = ["postgres", "serde_json", "time", "64-column-tables"] }
+serde = { version = "1.0.193", features = ["derive"] }

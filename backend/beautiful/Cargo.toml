@@ -1,0 +1,9 @@
+[package]
+name = "beautiful"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.5.1"
+num_cpus = "1.16.0"
+sdk ={path = "../sdk"}

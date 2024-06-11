@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "account",
+    "beautiful",
+    "sdk",
+    "utils",
+    "chats", 
+    "post", 
+    "reamment",
+]
